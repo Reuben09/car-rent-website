@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import './App.css'
 import Home from './pages/Home';
 import Navmenu from './components/Navmenu';
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
                 <Home />
           } />
      </Routes>
+     <Footer />
     </>
   )
 }
