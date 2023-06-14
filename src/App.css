@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+body{
+    background: #23263A;
+    font-family: 'Exo', sans-serif;
+}
+nav{
+    background: #23263A;
+    font-size: 16px;
+}
+#hero{
+    background: #23263A;
+}
+
+#subscribe{
+    background: linear-gradient(180deg, rgba(10, 10, 11, 0.2) 0%, rgba(10, 10, 11, 0.5) 100%);
+    position: relative;
+    z-index: 111;
+}
+#subscribe::before{
+    content: "";
+    position: absolute;
+    background: url("./assets/images/subscribe-bg.png"), center no-repeat;
+   background-size: cover;
+   }
