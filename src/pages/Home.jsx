@@ -20,8 +20,8 @@ function Home() {
   return (
     <>
     <section id="hero" className="h-auto mt-20">
-    <h1 className="text-4xl font-semibold text-white text-center mb-8">Choose the Best Car</h1>
-    <h1 className="text-2xl font-semibold text-white text-center mb-4">Porsche Mission E</h1>
+    <h1 className="text-4xl font-semibold text-white text-center mb-8">Discover your perfect ride</h1>
+    <h1 className="text-2xl font-semibold text-white text-center mb-4">Electric and Hybrid Cars</h1>
     <div className="flex align-center justify-center mb-20">
       <img src={SpeedIcon} alt="speed icon" />
       <p style={{color: "#BABEC4"}} className="font-normal">Electric car</p>
@@ -60,20 +60,20 @@ function Home() {
     </div>
     <div style={{width: "25rem", height: "18rem"}} className="ml-24 text-left">
       <h2 className="text-2xl font-semibold mb-2" style={{color: "#F1F2F3"}}>
-        Machines With
+      Electric Luxury
       </h2>
       <h2 className="text-2xl font-semibold mb-8" style={{color: "#F1F2F3"}}>
-        Future Technology 
+       at Your Fingertips
       </h2>
-      <p className="font-normal text-base mb-8" style={{color: "#BABEC4"}}>See the future with high-performance electric cars produced by renowned brands. They feature futuristic builds and designs with new and innovative platforms that last a long time</p>
+      <p className="font-normal text-base mb-8" style={{color: "#BABEC4"}}>Discover electric luxury like never before with our car rental platform. Rent top-of-the-line electric vehicles with futuristic designs and innovative technologies from renowned brands, indulging in a truly exceptional driving experience.</p>
       <button className="rounded-sm text-white font-normal text-base px-8 py-4" style={{background: "#4177DC"}}>Know more</button>
     </div>
     </div>
   </section>
 
   <section id="popular" className="mb-20">
-       <h2 style={{color: "#F1F2F3"}} className="font-semibold text-2xl text-center mb-1">Choose Your Electric Car</h2>
-       <h2 style={{color: "#F1F2F3"}} className="font-semibold text-2xl text-center mb-12">Of The Porsche Brand</h2>
+       <h2 style={{color: "#F1F2F3"}} className="font-semibold text-2xl text-center mb-1">Discover Electrifying Performance</h2>
+       <h2 style={{color: "#F1F2F3"}} className="font-semibold text-2xl text-center mb-12">with Our Premium Electric Cars</h2>
        <div className="flex justify-center items-center">
         <div id="card" className="px-8 py-4 relative mx-8 rounded-md" style={{width: "16rem", height: "20rem", backgroundColor: "#2D3042"}}>
             <h2 style={{color: "#F1F2F3"}} className="font-semibold text-2xl mb-1">Porshe</h2>
@@ -169,9 +169,9 @@ function Home() {
       <div style={{height: '16.5rem'}}>
          <h2 className="text-2xl text-white font-semibold mb-1">Do You Want To Receive</h2>
          <h2 className="text-2xl text-white font-semibold mb-8">Special Offers?</h2>
-         <p className="text-base font-normal" style={{color: "#BABEC4"}}>Be the first to receive all the information about</p>
-         <p className="text-base font-normal" style={{color: "#BABEC4"}}>our products and new cars by email by subscribing</p>
-         <p className="text-base font-normal mb-8" style={{color: "#BABEC4"}}>to our mailing list.</p>
+         <p className="text-base font-normal" style={{color: "#BABEC4"}}>Get Plugged into CarConnect's Network</p>
+         <p className="text-base font-normal" style={{color: "#BABEC4"}}>Join Our Mailing List for Exclusive Car Rental Insights</p>
+         <p className="text-base font-normal mb-8" style={{color: "#BABEC4"}}>and New Car Notifications.</p>
          <button style={{borderRadius: "4px", backgroundColor: "#4177DC"}} className="text-white py-4 px-8 text-base">Subscribe Now</button>
       </div>
       <div className='ml-8'>

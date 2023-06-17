@@ -13,9 +13,9 @@ const Footer = () => {
               <h3 className="self-center ml-2 text-xl font-semibold text-white">Elecar</h3>
      </div>
      <div>
-        <p className='text-sm font-normal' style={{color: "#BABEC4"}}>We offer the best electric cars of</p>
-        <p className='text-sm font-normal' style={{color: "#BABEC4"}}>the most recognized brands in</p>
-        <p className='text-sm font-normal' style={{color: "#BABEC4"}}>the world.</p>
+        <p className='text-sm font-normal' style={{color: "#BABEC4"}}>Experience Excellence in Electric Mobility</p>
+        <p className='text-sm font-normal' style={{color: "#BABEC4"}}>Discover the Finest Electric Cars from</p>
+        <p className='text-sm font-normal' style={{color: "#BABEC4"}}>Renowned Global Brands.</p>
      </div>
         </div>
 
