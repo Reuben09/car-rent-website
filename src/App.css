@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
 body{
-    background: #23263A;
     font-family: 'Exo', sans-serif;
-    padding: 1rem 1.5rem;
+    height: 100%;
 }
 nav{
     background: #23263A;
